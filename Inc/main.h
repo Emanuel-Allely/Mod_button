@@ -91,7 +91,7 @@
 /* #define USE_FULL_ASSERT    1U */
 
 /* USER CODE BEGIN Private defines */
-#define FIRM_REV "0.0.2"
+#define FIRM_REV "0.1.0"
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
