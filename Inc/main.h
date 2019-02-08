@@ -92,6 +92,7 @@
 
 /* USER CODE BEGIN Private defines */
 #define FIRM_REV "0.2.0"
+#define MAX_VM_NUMBER 1
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
