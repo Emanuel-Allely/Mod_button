@@ -92,7 +92,7 @@ void rx_cb(vm_t *vm, msg_t *msg) {
 	}
 	// L0 message management
     pub_type = l0_msg_handler(vm, msg, &pub_msg);
-	if (pub_type != LUOS_PROTOCOL_NB | pub_type != L0_LED) {
+	if (pub_type != LUOS_PROTOCOL_NB & pub_type != L0_LED) {
 		vm_pointer = vm;
 		pub = pub_type;
 		return;
