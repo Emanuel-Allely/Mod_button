@@ -134,6 +134,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_ADC_Init();
   /* USER CODE BEGIN 2 */
+  HAL_ADC_Start_DMA(&hadc, L0_analog.unmap, sizeof(L0_analog.unmap) / sizeof(uint32_t));
   robus_init();
   vm = robus_module_create(rx_cb, BUTTON, "button_mod");
   /* USER CODE END 2 */
