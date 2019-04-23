@@ -91,7 +91,7 @@
 /* #define USE_FULL_ASSERT    1U */
 
 /* USER CODE BEGIN Private defines */
-#define FIRM_REV "0.4.0"
+#define FIRM_REV "0.5.0"
 #define MAX_VM_NUMBER 1
 /* USER CODE END Private defines */
 
