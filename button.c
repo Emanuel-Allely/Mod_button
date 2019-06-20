@@ -20,7 +20,7 @@ void rx_btn_cb(vm_t *vm, msg_t *msg) {
 }
 
 void button_init(void) {
-    luos_module_create(rx_btn_cb, BUTTON, "button_mod");
+    luos_module_create(rx_btn_cb, STATE_MOD, "button_mod");
 }
 
 void button_loop(void) {
