@@ -16,8 +16,7 @@ void rx_btn_cb(module_t *module, msg_t *msg) {
 }
 
 void button_init(void) {
-    module_t* module = luos_module_create(rx_btn_cb, STATE_MOD, "button_mod");
-
+    luos_module_create(rx_btn_cb, STATE_MOD, "button_mod");
 }
 
 void button_loop(void) {
