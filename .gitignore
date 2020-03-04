@@ -1,3 +1,16 @@
-/Debug/
 **/.DS_Store
 .DS_Store
+.pio/**
+.vscode/**
+.mxproject
+.osx.project
+.project
+.cproject
+*.xml
+fp-lib-table
+*bak
+*.wrl
+sym-lib-table
+*.lib
+*.dcm
+l0_button/l0_button
