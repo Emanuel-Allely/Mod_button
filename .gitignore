@@ -6,4 +6,11 @@
 .osx.project
 .project
 .cproject
-Button.xml
+*.xml
+fp-lib-table
+*bak
+*.wrl
+sym-lib-table
+*.lib
+*.dcm
+l0_button/l0_button
