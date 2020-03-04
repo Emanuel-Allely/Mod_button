@@ -1,3 +1,9 @@
-/Debug/
 **/.DS_Store
 .DS_Store
+.pio/**
+.vscode/**
+.mxproject
+.osx.project
+.project
+.cproject
+Button.xml
