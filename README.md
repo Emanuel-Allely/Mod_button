@@ -1,3 +1,5 @@
+![](https://github.com/Luos-io/mod_button/workflows/PlatformIO%20CI/badge.svg)
+
 # Button project example
 This project demonstrate how to make and use a simple button through Luos.
 
