@@ -1,4 +1,4 @@
-![](https://github.com/Luos-io/mod_button/workflows/PlatformIO%20CI/badge.svg)
+![](https://github.com/Luos-io/Mod_button/workflows/Build/badge.svg)
 
 # Button project example
 This project demonstrate how to make and use a simple button through Luos.
@@ -10,6 +10,6 @@ You can open the button electronic design with Kicad. This design use Luos_compo
 
 ## How to compile the code
 
- 1. Download and install [plateformio](https://platformio.org/platformio-ide)
- 2. Open this folder into plateformio
- 3. Build (platformio will do the rest)
+ 1. Download and install [Platformio](https://platformio.org/platformio-ide)
+ 2. Open this folder into Platformio
+ 3. Build (Platformio will do the rest)
