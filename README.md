@@ -1,4 +1,4 @@
-[![](http://certified.luos.io/)](https://luos.io)
+[![](https://www.luos.io/wp-includes/images/media/certified.svg)](https://luos.io)
 ![](https://github.com/Luos-io/Mod_button/workflows/Build/badge.svg)
 [![](https://img.shields.io/badge/Luos-Certified%20dev'-34A3B4)](https://luos.io)
 [![](https://img.shields.io/github/license/Luos-io/Mod_button)](https://github.com/Luos-io/Mod_button/blob/master/LICENSE)
