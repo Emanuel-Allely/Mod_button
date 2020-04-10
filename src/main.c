@@ -30,7 +30,6 @@
 /* USER CODE BEGIN Includes */
 #include "luos.h"
 #include "button.h"
-#include "luos_board.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -98,7 +97,6 @@ int main(void)
   MX_ADC_Init();
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
-  HAL_ADC_Start_DMA(&hadc, node_analog.unmap, sizeof(node_analog_t) / sizeof(uint32_t));
   luos_init();
   button_init();
   /* USER CODE END 2 */
@@ -108,7 +106,6 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_ADC_Start_DMA(&hadc, node_analog.unmap, sizeof(node_analog_t) / sizeof(uint32_t));
     luos_loop();
     button_loop();
     /* USER CODE BEGIN 3 */
