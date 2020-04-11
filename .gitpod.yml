@@ -4,4 +4,4 @@ vscode:
 
 tasks:
   - before: pip3 install -U platformio
-    command: platformio run -e tasmota
+    command: platformio run -e eval_f072vb
